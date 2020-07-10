@@ -111,7 +111,7 @@ h1,h2,h3,p{
 }
 
 .top-wrapper {
-    background-image: url("../image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+    background-image: url("image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
     background-size: cover;
     height: 800px;
     margin: 0;
@@ -476,7 +476,7 @@ footer {
 /* sp */
 @media (max-width: 480px) {
     .top-wrapper {
-        background-image: url("../image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+        background-image: url("image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
         height: 850px;
         margin: 0;
         padding: 0;
