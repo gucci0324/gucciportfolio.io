@@ -1,0 +1,835 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    color: rgba(27,23,37,0.8);
+}
+
+h1,h2,h3,p{
+  color: rgb(27,23,37);
+}
+
+.top-wrapper {
+    background-image: url("../image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+    background-size: cover;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+.heading h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 350px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-container ul{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-container a {
+    text-decoration: none;
+}
+
+.nav-container a:hover {
+    text-decoration: block;
+}
+
+.nav-container li {
+  margin-right: 60px;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.nav-container li:hover {
+    color: rgba(27,23,37,1.0);
+    border-bottom: 2px solid;
+}
+
+.fas {
+    font-size: 25px;
+    padding-top: 4px;
+    padding-right: 12px;
+    color: rgb(27,23,37);
+}
+
+.middle-wrapper {
+    text-align: center;
+}
+
+.middle-container {
+    margin-top: 150px;
+}
+
+.middle-container h2 {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+.middle-container img {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.profile {
+    margin-bottom: 300px;
+}
+
+.user-card {
+    font-size: 40px;
+}
+
+.profile h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  border-bottom: 2px solid rgb(27,23,37);
+  margin: 50px 60px;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.plofile p {
+  font-family: 'Kosugi Maru', sans-serif;
+  letter-spacing: 10px;
+  margin-bottom: 5px;
+}
+
+.skill-wrapper {
+    text-align: center;
+}
+
+.skill-card {
+    font-size: 40px;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+
+.skill-container h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    border-bottom: 2px solid rgb(27,23,37);
+    margin: 50px 60px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.icons {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 3;
+    align-items: center;
+    margin: 100px 300px 100px 300px;
+}
+
+.icon i{
+    font-size: 150px;
+}
+
+.icon p {
+    margin-bottom: 60px;
+}
+
+.services-wrapper {
+    background-color: #9283be;
+    height: 1300px;
+}
+.services-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service-card {
+    font-size: 40px;
+    padding-top: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.services-container h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    border-bottom: 2px solid white;
+    margin: 50px 60px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.s-i {
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 50px;
+    background-color: white;
+}
+
+.s-m {
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 50px 60px 50px 60px;
+    background-color: white;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.service {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.service h4 {
+    color: white;
+}
+
+.service p {
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 200px;
+    color: white;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+
+.work-container {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.work-card {
+    font-size: 40px;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+.work-container h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    border-bottom: 2px solid rgb(27,23,37);
+    margin: 0 60px 50px 60px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.item {
+    margin-bottom: 10%;
+}
+.container img {
+    width: 80%;
+    height: 100%;
+}
+
+.contact-wrapper {
+    background-color: #dddddd;
+    height: 800px;
+}
+.contact-container {
+    text-align: center;
+}
+
+.contact-card {
+    font-size: 40px;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+
+.contact-container h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    border-bottom: 2px solid rgb(27,23,37);
+    margin: 0 60px 50px 60px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.contact {
+    margin-bottom: 40px; 
+}
+
+.contact input {
+    border: none;
+    border-radius: 4px;
+    height: 55px;
+    width: 60%;
+    padding-left: 8px;
+}
+
+.contact textarea {
+    border: none;
+    border-radius: 4px;
+    height: 100px;
+    width: 60%;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.btn {
+    margin-top: 40px;
+    border-radius: 6px;
+    height: 55px;
+    width: 50%;
+    background-color: #ffd700;
+    box-shadow: 0 7px #deb520;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    height: 180px;
+    text-align: center;
+}
+
+.footer-write p {
+    margin: 0;
+    color: white;
+    letter-spacing: 2px;
+    padding: 40px 0;
+}
+
+.footer-sns i {
+    font-size: 30px;
+    padding: 0 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.insta:hover {
+    color:  #e1306c ;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.main {
+    text-align: center;
+}
+
+.thanks-message {
+    font-size: 30px;
+    margin: 80px 0 50px 0;
+}
+
+.display-contact {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    margin: 30px auto 50px auto;
+    width: 70%;
+    padding: 50px;
+}
+
+.form-title {
+    font-size: 25px;
+    padding: 30px;
+}
+
+.form-item {
+    padding: 20px 0 10px 0;
+}
+
+.admit {
+    margin-top: 10px;
+    margin-bottom: 160px;
+}
+
+/* sp */
+@media (max-width: 480px) {
+    .top-wrapper {
+        background-image: url("../image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+        height: 850px;
+        margin: 0;
+        padding: 0;
+    }
+    .btn-trigger {
+        position: relative;
+        width: 50px;
+        height: 44px;
+        cursor: pointer;
+    }
+    .btn-trigger span {
+        position: absolute;
+        left: 320px;
+        width: 80%;
+        height: 4px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .btn-trigger, .btn-trigger span {
+        display: inline-block;
+        transition: all .5s;
+        box-sizing: border-box;
+    }
+    .btn-trigger span:nth-of-type(1) {
+        top: 20px;
+    }
+    .btn-trigger span:nth-of-type(2) {
+        top: 30px;
+    }
+    .btn-trigger span:nth-of-type(3) {
+        top: 40px;
+    }
+    .heading h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 60px;
+        margin: 0;
+        padding-top: 80%;
+        text-align: center;
+        letter-spacing: 3px;
+        color: white;
+    }
+    nav {
+        display: none;
+    }
+    
+    .middle-wrapper {
+        text-align: center;
+    }
+    
+    .middle-container {
+        margin-top: 150px;
+    }
+    
+    .middle-container h2 {
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    .middle-container img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        padding: 40px;
+    }
+    
+    .profile {
+        margin-bottom: 120px;
+    }
+    
+    .user-card {
+        font-size: 30px;
+    }
+    
+    .profile h3 {
+      font-family: 'Anton', sans-serif;
+      font-size: 30px;
+      border-bottom: 2px solid rgb(27,23,37);
+      margin: 50px 60px;
+      padding-bottom: 40px;
+      letter-spacing: 1px;
+    }
+    
+    .plofile p {
+      font-family: 'Kosugi Maru', sans-serif;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+      font-size: 8px;
+    }
+    
+    
+    .skill-card {
+        font-size: 30px;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .skill-container h3 {
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+        border-bottom: 2px solid rgb(27,23,37);
+        margin: 50px 60px;
+        padding-bottom: 40px;
+        letter-spacing: 1px;
+    }
+    
+    .icons {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(2,1fr);
+        grid-row: 1;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .icon i{
+        font-size: 100px;
+    }
+    
+    .icon p {
+        margin-bottom: 60px;
+    }
+    
+    .services-wrapper {
+        background-color: #9283be;
+        height: 1300px;
+    }
+    .services-container {
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .service-card {
+        font-size: 30px;
+        padding-top: 0;
+        margin-bottom: 5px;
+        color: white;
+    }
+    
+    .services-container h3{
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+        border-bottom: 2px solid white;
+        margin: 50px 60px;
+        padding-bottom: 40px;
+        letter-spacing: 1px;
+        color: white;
+    }
+    
+    .s-i {
+        border: 1px solid white;
+        border-radius: 50%;
+        font-size: 40px;
+        padding: 50px;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    
+    .s-m {
+        border: 1px solid white;
+        border-radius: 50%;
+        font-size: 40px;
+        padding: 50px 60px 50px 60px;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .service {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .service h4 {
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .service p {
+        text-align: center;
+        display: inline-block;
+        font-size: 15px;
+        margin: 0 30px 0 30px;
+        color: white;
+    }
+    
+    .fadein {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 1s;
+        line-height: 25px;
+    }
+    
+    .work-container {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    .work-card {
+        font-size: 30px;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+    .work-container h3 {
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+        border-bottom: 2px solid rgb(27,23,37);
+        margin: 0 60px 50px 60px;
+        padding-bottom: 40px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    
+    .item {
+        margin-bottom: 10%;
+    }
+    .container img {
+        width: 80%;
+        height: 100%;
+    }
+    
+    .contact-wrapper {
+        background-color: #dddddd;
+        height: 800px;
+    }
+    .contact-container {
+        text-align: center;
+    }
+    
+    .contact-card {
+        font-size: 30px;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .contact-container h3 {
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+        border-bottom: 2px solid rgb(27,23,37);
+        margin: 0 60px 50px 60px;
+        padding-bottom: 40px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+    }
+    
+    .contact {
+        margin-bottom: 40px; 
+    }
+    
+    .contact input {
+        border: none;
+        border-radius: 4px;
+        height: 30px;
+        width: 80%;
+        padding-left: 8px;
+    }
+    
+    .contact textarea {
+        border: none;
+        border-radius: 4px;
+        height: 100px;
+        width: 80%;
+        padding-top: 8px;
+        padding-left: 8px;
+    }
+    
+    .btn {
+        margin-top: 40px;
+        border-radius: 6px;
+        height: 40px;
+        width: 60%;
+        background-color: #ffd700;
+        box-shadow: 0 7px #deb520;
+        cursor: pointer;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .btn:active {
+        box-shadow: none;
+        position: relative;
+        top: 7px;
+    }
+    
+    footer {
+        background-color: #212529;
+        color: white;
+        height: 180px;
+        text-align: center;
+    }
+    
+    .footer-write p {
+        margin: 0;
+        color: white;
+        letter-spacing: 2px;
+        padding: 40px 0;
+        font-size: 14px;
+    }
+    
+    .footer-sns i {
+        font-size: 25px;
+        padding: 0 40px;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .insta:hover {
+        color:  #e1306c ;
+    }
+    
+    .twitter:hover {
+        color: #1da1f2;
+    }
+    
+    .main {
+        text-align: center;
+    }
+    
+    .thanks-message {
+        font-size: 15px;
+        margin: 80px 10px 50px 10px;
+    }
+    
+    .display-contact {
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: #F5F5F5;
+        margin: 30px auto 50px auto;
+        width: 70%;
+        padding: 50px;
+    }
+    
+    .form-title {
+        font-size: 12px;
+        padding: 30px;
+    }
+    
+    .form-item {
+        padding: 20px 0 10px 0;
+        font-size: 12px;
+    }
+    
+    .admit {
+        margin-top: 10px;
+        margin-bottom: 80px;
+    }
+}
