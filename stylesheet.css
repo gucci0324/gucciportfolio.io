@@ -111,7 +111,7 @@ h1,h2,h3,p{
 }
 
 .top-wrapper {
-    background-image: url(" https://gucci0324.github.io/gucciportfolio.io/./image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+    background-image: url("https://gucci0324.github.io/gucciportfolio.io/./image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
     background-size: cover;
     height: 800px;
     margin: 0;
@@ -324,6 +324,7 @@ nav {
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 55px;
+
 }
 
 .work-container {
@@ -487,7 +488,8 @@ footer {
 /* sp */
 @media (max-width: 480px) {
     .top-wrapper {
-        background-image: url(" https://gucci0324.github.io/gucciportfolio.io/./image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+        background-image: url("https://gucci0324.github.io/gucciportfolio.io/./image/ian-dooley-DJ7bWa-Gwks-unsplash.jpg");
+        background-position: center ;
         height: 850px;
         margin: 0;
         padding: 0;
@@ -522,12 +524,14 @@ footer {
     }
     .heading h2 {
         font-family: 'Anton', sans-serif;
-        font-size: 60px;
+        font-size: 40px;
         margin: 0;
         padding-top: 80%;
         text-align: center;
         letter-spacing: 3px;
         color: white;
+        line-height: 80px;
+
     }
     nav {
         display: none;
@@ -571,11 +575,13 @@ footer {
       letter-spacing: 1px;
     }
     
-    .plofile p {
+    .fadein p {
       font-family: 'Kosugi Maru', sans-serif;
       letter-spacing: 2px;
-      margin-bottom: 5px;
-      font-size: 8px;
+      margin: 0 50px 5px;
+      font-size: 15px;
+      line-height: 40px;
+
     }
     
     
