@@ -8,6 +8,16 @@ $(function() {
      $('body, html').animate({scrollTop:position}, speed, 'swing');
       return false;
   });
+  
+  $('#pp,#ss,#vv,#ww,#cc').click(function(){
+     var speed = 1000;
+     var href = $(this).attr('href');
+     var target = $(href == '#' || href == "" ? 'html' : href);
+     var position = target.offset().top;
+
+     $('body, html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+  });
 
    var $allMsg = $('#title');
    var $wordList = $('#title').html().split("");
@@ -30,4 +40,23 @@ $(function() {
        }
    });
   });
+  
+  (function($) {
+    var $body   = $('body');
+    var $btn   = $('.toggle_btn');
+    var $mask  = $('#mask');
+    var open   = 'open'; // class
+    // menu open close
+    $btn.on( 'click', function() {
+      if ( ! $body.hasClass( open ) ) {
+        $body.addClass( open );
+      } else {
+        $body.removeClass( open );
+      }
+    });
+    // mask close
+    $mask.on('click', function() {
+      $body.removeClass( open );
+    });
+  } )(jQuery);
 });
